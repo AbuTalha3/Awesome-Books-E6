@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "luxon": "^3.3.0",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
