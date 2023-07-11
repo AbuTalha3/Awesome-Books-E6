@@ -1,4 +1,4 @@
-export class BookList {
+export default class BookList {
   constructor() {
     // array that hold the books list
     this.books = JSON.parse(localStorage.getItem('books')) || [];
