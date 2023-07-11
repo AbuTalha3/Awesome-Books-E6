@@ -6,6 +6,6 @@ bookList.init();
 
 document.addEventListener('DOMContentLoaded', () => {
   const timer = document.getElementById('datetime');
-  const clock = DateTime.now().toLocaleString();
+  const clock = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
   timer.textContent = clock;
 });

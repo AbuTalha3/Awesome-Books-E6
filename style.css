@@ -191,7 +191,7 @@ footer {
   text-align: center;
 }
 
-#current-time {
+.current-time {
   display: flex;
   justify-content: flex-end;
   align-self: flex-end;
@@ -199,7 +199,7 @@ footer {
   margin: 1rem auto 0;
 }
 
-#current-time p {
+.current-time p {
   color: rgb(67, 66, 66);
   font-weight: bolder;
 }
