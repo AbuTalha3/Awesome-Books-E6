@@ -1,4 +1,4 @@
-import { DateTime } from '../modules/luxon.js';
+import { DateTime } from '../node_modules/luxon/src/luxon.js';
 import BookList from '../modules/bookList.js';
 
 const bookList = new BookList();
