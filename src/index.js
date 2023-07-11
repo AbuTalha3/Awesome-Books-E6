@@ -1,5 +1,5 @@
-import { DateTime } from '../modules/luxon';
-import { BookList } from '../modules/bookList';
+import { DateTime } from '../modules/luxon.js';
+import { BookList } from '../modules/bookList.js';
 
 const bookList = new BookList();
 bookList.init();
